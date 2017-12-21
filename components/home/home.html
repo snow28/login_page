@@ -1,0 +1,24 @@
+<div class="container-fluid main">
+    <div class="row col-sm-12">
+        <img class="google" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2000px-Google_2015_logo.svg.png">
+    </div>
+    <div class="inputBox row col-sm-12">
+        <form>
+            <div class="textInputs_wrapper ris_font">
+                <input ng-model="username" class="textInput username input" placeholder="Username">
+                <div></div>
+                <input ng-model="password" class="textInput password input" placeholder="Password">
+            </div>
+            <button ng-click="goToLogin('eng')" class="signIn ris_font font_size">Sign Up</button>
+            <button class="register ris_font font_size">Register</button>
+        </form>
+    </div>
+    <div class="ris_font row col-sm-12">
+        <div class="footer">
+            <ul>
+                <li ng-click="goRussian()" class="font_size">РУС</li>
+                <li class="special font_size">ENG</li>
+            </ul>
+        </div>
+    </div>
+</div>

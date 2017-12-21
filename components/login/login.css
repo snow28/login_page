@@ -1,0 +1,15 @@
+.header{
+    text-align: center;
+    background-color: #33aa54;
+
+    font-size: 1.5em;
+}
+.logoutButton{
+    background: yellow;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fbbd00;
+    margin-bottom: 2em;
+}

@@ -1,0 +1,167 @@
+.main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: ghostwhite;
+}
+
+.google {
+    position: relative;
+    top: 100px;
+}
+
+.inputBox {
+    width:100%;
+    position: fixed;
+    bottom: 25vh;
+    max-height: 35%;
+}
+
+.textInput {
+    text-align: center;
+    height: 6vh;
+    border: none;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+}
+
+.bottom_border {
+    width: 100%;
+    border-bottom: 3px solid lightgray;
+}
+
+.input{
+    font-size: 19px;
+    border-bottom: 2px solid #dadada;
+    border-left: 2px solid #dadada;
+    border-right: 2px solid #dadada;
+}
+
+.signIn {
+    font-size: 20px;
+    margin-top: 15px;
+    height: 6.2vh;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #fbbd00;
+    border: none;
+}
+
+.register {
+    font-size: 20px;
+    margin-top: 15px;
+    height: 6.2vh;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #33aa54;
+    border: none;
+}
+
+.signIn:active {
+    background-color: darkorange;
+}
+.footer {
+    position: relative;
+    font-size: 1.5em;
+    color: gray;
+    width : 100%;
+    position: fixed;
+    bottom: 50px;
+}
+.footer ul>li{
+    text-align: center;
+}
+.footer ul{
+    padding-left: 0;
+}
+.footer li{
+    list-style-type: none;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.special{
+    font-size: 1.4em;
+    color : #eb4132;
+}
+
+
+@media only screen and (min-width: 240px){  /* till 465*/
+    .footer li{
+        font-size: 2em;
+    }
+
+    .signIn{
+        font-size: 4em;
+    }
+    .register{
+        font-size: 4em;
+    }
+    .textInputs_wrapper input::placeholder{
+        font-size: 1.4em;
+    }
+    .google{
+        padding-top: 250px;
+    }
+}
+
+@media only screen and (min-width: 466px){
+    .register{
+        font-size: 2em;
+    }
+    .signIn{
+        font-size: 2em;
+    }
+    .textInput{
+        font-size: 2em;
+    }
+    .textInput::placeholder{
+        font-size: 1em;
+    }
+    .google{
+        padding-top: 0;
+        top : 100px;
+        width: 70%;
+        margin-left: 15%;
+    }
+    .footer{
+        bottom: 50px;
+    }
+}
+
+@media (min-width: 770px) {
+    .textInput{
+        font-size: 1.2em;
+    }
+    .signIn{
+        font-size: 1.2em;
+    }
+    .register{
+        font-size: 1.2em;
+    }
+    .footer{
+        font-size: 1.2em;
+    }
+
+}
+
+@media(min-width: 1000px) {
+    .google{
+        width : 50%;
+        margin-left: 25%;
+        top  : 50px;
+    }
+    .textInput{
+        font-size: 22px;
+    }
+}
+
+
+
+
+
+
+
